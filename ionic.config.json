@@ -1,0 +1,16 @@
+{
+  "name": "IdentityTest",
+  "integrations": {
+    "capacitor": {},
+    "enterprise": {
+      "keyId": 1299,
+      "productKey": "key_91fadea859224edda0b569a90e72ea4c",
+      "appId": "5f04c944",
+      "orgId": "42140c30-604e-41ff-ba49-a08591deaa6d",
+      "registries": [
+        "@ionic-enterprise;https://registry.ionicframework.com/"
+      ]
+    }
+  },
+  "type": "angular"
+}

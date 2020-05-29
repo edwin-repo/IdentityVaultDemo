@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      HRB
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item button (click)="onBiometricClick()" class="fullwidth">
+      <ion-label>
+        Use Biometrics
+      </ion-label>
+      <ion-toggle checked={{this.useBiometrics}} ></ion-toggle>
+    </ion-item>
+    <ion-item button (click)="onPassClick()" class="fullwidth">
+      <ion-label>
+        Use Passcode
+      </ion-label>
+      <ion-toggle checked={{this.usePasscode}} ></ion-toggle>
+    </ion-item>
+    <ion-item button (click)="onSecureClick()" class="fullwidth">
+      <ion-label>
+        Use SecureStorage
+      </ion-label>
+      <ion-toggle checked={{this.useSecureStorageMode}} ></ion-toggle>
+    </ion-item>
+  </ion-list>
+</ion-content>
